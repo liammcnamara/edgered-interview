@@ -1,5 +1,7 @@
 # Overview
 
+From January 2024
+
 I applied for a Data Engineer position and had an initial interview followed by a take home task with a follow-up technical interview about said task.
 
 I spent over 4 hours on the task but after submitting the task there was no follow through on the company's end until I followed up over a week later. 
