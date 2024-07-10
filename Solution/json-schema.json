@@ -1,0 +1,364 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "summary": {
+        "type": "object",
+        "properties": {
+          "total_clients": {
+            "type": "integer"
+          },
+          "total_payments": {
+            "type": "integer"
+          },
+          "oldest_payment": {
+            "type": "string"
+          },
+          "newest_payment": {
+            "type": "string"
+          },
+          "sum_all_payments": {
+            "type": "string"
+          },
+          "average_payment": {
+            "type": "string"
+          },
+          "payment_min": {
+            "type": "string"
+          },
+          "payment_quartile_1": {
+            "type": "string"
+          },
+          "payment_median": {
+            "type": "string"
+          },
+          "payment_quartile_3": {
+            "type": "string"
+          },
+          "payment_max": {
+            "type": "string"
+          },
+          "total_amt_paid_in_june_and_july": {
+            "type": "string"
+          },
+          "total_private_companies": {
+            "type": "integer"
+          },
+          "total_num_payments_under_1_dollar": {
+            "type": "integer"
+          },
+          "average_sole_trader_payment_in_2017": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "total_clients",
+          "total_payments",
+          "oldest_payment",
+          "newest_payment",
+          "sum_all_payments",
+          "average_payment",
+          "payment_min",
+          "payment_quartile_1",
+          "payment_median",
+          "payment_quartile_3",
+          "payment_max",
+          "total_amt_paid_in_june_and_july",
+          "total_private_companies",
+          "total_num_payments_under_1_dollar",
+          "average_sole_trader_payment_in_2017"
+        ]
+      },
+      "records": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "client_id": {
+                "type": "integer"
+              },
+              "entity_type": {
+                "type": "string"
+              },
+              "entity_year_established": {
+                "type": "integer"
+              },
+              "total_payments": {
+                "type": "integer"
+              },
+              "total_amt_paid": {
+                "type": "string"
+              },
+              "payments": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "client_id",
+              "entity_type",
+              "entity_year_established",
+              "total_payments",
+              "total_amt_paid",
+              "payments"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "client_id": {
+                "type": "integer"
+              },
+              "entity_type": {
+                "type": "string"
+              },
+              "entity_year_established": {
+                "type": "integer"
+              },
+              "total_payments": {
+                "type": "integer"
+              },
+              "total_amt_paid": {
+                "type": "string"
+              },
+              "payments": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": {
+                        "type": "integer"
+                      },
+                      "contract_id": {
+                        "type": "integer"
+                      },
+                      "transaction_date": {
+                        "type": "string"
+                      },
+                      "payment_amt": {
+                        "type": "string"
+                      },
+                      "payment_code": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "transaction_id",
+                      "contract_id",
+                      "transaction_date",
+                      "payment_amt",
+                      "payment_code"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "client_id",
+              "entity_type",
+              "entity_year_established",
+              "total_payments",
+              "total_amt_paid",
+              "payments"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "summary",
+      "records"
+    ]
+  }
