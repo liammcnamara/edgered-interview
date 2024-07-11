@@ -4,15 +4,15 @@ From January 2024
 
 I applied for a Data Engineer position and had an initial interview followed by a take home task with a follow-up technical interview about said task.
 
-I spent over 4 hours on the task but after submitting the task there was no follow through on the company's end until I followed up over a week later. 
+I spent over 4 hours on the task
 
-After the technical interview, I received no feedback or outcome. I was ghosted.
+After the technical interview, I received no feedback or outcome.
 
 This article seems applicable - https://www.forbes.com/sites/jackkelly/2024/03/01/job-ghosting
 
 # Company
 
-Boutique consultancy - Edgered
+Boutique consultancy
 
 # Technical Task and Interview
 
@@ -87,5 +87,3 @@ test_output.json file.
 5. Do you know what Hive is?
 
 The context of the interviewers questions in the context of the technical environments in the job description and technical task were not aligned. The approach of the interviewer was -not- to broaden the context of this task and using it as a transformation how would go able including it in a pipeline and as part of the orchestration. Instead the approach was to fixate on minutiae, 'What does this line of your code do', rather than understanding a process of thought towards building our an ETL/ELT in a cloud environment as the job description suggests.
-
-The question about SQLAlchemy is understandable in isolation but in context of the job description - Python & SQL - being a core skill emphasised then it seemed appropriate to include some SQL in the solution.
